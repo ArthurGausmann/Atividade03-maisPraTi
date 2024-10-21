@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.cabeca {
+    width: 100%;
+}
+
+.pagina {
+    position: relative;
+    min-height: 100vh;
+}
+
+.titulo {
+    color: black;
+    background-color: blue;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    font-size: 4.5vh;
+    letter-spacing: 1.5px;
+    word-spacing: 10px;
+}
+
+.navBar {
+    background-color: lightgray;
+    padding: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+}
+
+.navBar ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.navBar li {
+    margin: 0 30px;
+}
+
+.navBar li a {
+    text-decoration: none;
+    color: black;
+    font-size: 2vh;
+    letter-spacing: 1.5px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+}
+
+.navBar li a:hover {
+    background-color: gray;
+    color: whitesmoke;
+}
+
+.container {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: 1fr 1fr ;
+    padding-bottom: 15px;
+}
+
+.texto {
+    grid-column: 1;
+    grid-row: 1;
+    margin-left: 10px;
+}
+
+.texto h3 {
+    text-align: center;
+    padding: 5px;
+    font-size: 3vh;
+    letter-spacing: 1.5px;
+}
+
+.texto p {
+    padding: 5px;
+    font-size: 2vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.imagem {
+    grid-column: 1;
+    grid-row: 2;
+    display: flex;
+    justify-content: center;
+}
+
+.lateral {
+    border-left: 1px solid indianred;
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.lateral aside {
+    margin-left: 35px;
+}
+
+.lateral aside ul {
+    list-style: none;
+}
+
+.lateral aside li {
+    margin-top: 30px;
+}
+
+.lateral li a {
+    text-decoration: none;
+    color: indianred;
+    letter-spacing: 1.5px;
+    font-size: 2vh;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.lateral li a:hover {
+    background-color: pink;
+}
+
+footer {
+    background-color: lightgray;
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 15px;
+}
+
